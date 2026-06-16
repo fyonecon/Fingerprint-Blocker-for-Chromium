@@ -1,6 +1,6 @@
 # 正在开发。。。
 
-# Fingerprint Blocker for Chromium：拦截使用了Chromium内核的浏览器的设备指纹。
+# FingerprintBlocker. 拦截浏览器的设备指纹。
 
 支持浏览器：使用了Chromium内核的浏览器，如Edge、Chrome、360极速、QQ Browser等
 
@@ -10,7 +10,7 @@
 
 不收集任何隐私！
 
-项目地址：https://github.com/fyonecon/Fingerprint-Blocker-for-Chromium
+项目地址：https://github.com/fyonecon/FingerprintBlocker
 
 ---
 

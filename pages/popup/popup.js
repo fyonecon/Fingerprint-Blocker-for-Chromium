@@ -8,12 +8,9 @@ function page_start(e){
     // 页面翻译
     func.set_language_title("popup");
     func.set_language_span();
-    func.set_language_input_placeholder();
 
     // 初始化
-    show_href();
-    save_href();
-    show_a_target_radio();
+    show_block_fingerprint_radio();
 
     //
     // let sys_platform = func.get_runtime_info()["sys_platform"];

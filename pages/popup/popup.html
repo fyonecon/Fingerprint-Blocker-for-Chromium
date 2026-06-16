@@ -19,7 +19,7 @@
     <div class="app app-popup scroll-y-style">
 
         <div class="settings-item-title center border-bottom">
-            <a class="settings-item-a click font-blue" href="https://github.com/fyonecon/tabPureHome" target="_blank" title="Github: https://github.com/fyonecon/tabPureHome">
+            <a class="settings-item-a click font-blue" href="https://github.com/fyonecon/FingerprintBlocker" target="_blank" title="Github: https://github.com/fyonecon/FingerprintBlocker">
                 <span class="language-span font-title" data-language_key="app_name"></span>
                 <span class="settings-item-version font-mini font-gray" id="settings-item-title-version"></span>
             </a>
@@ -27,50 +27,24 @@
 
         <div class="div-card ">
             <div class="card-li card-li-title">
-                🎯 <span class="language-span font-text" data-language_key="custom_new_tab_title"></span>
-            </div>
-            <div class="card-li">
-                <input class="input-style border-radius select-text font-text language-input" id="input-custom_new_tab_href" type="text" data-language_key="input_placeholder_custom_new_tab_href" placeholder="" maxlength="1200" title="New Tab URL" />
-            </div>
-            <div class="card-li input-alert">
-                <span class="language-span font-mini select-text font-gray" id="input-custom_new_tab_href-alert" data-language_key="custom_new_tab_alert"></span>
-            </div>
-            <div class="card-li">
-                <button class="btn-style border-radius font-text click" id="input-custom_new_tab_btn" title="Update">
-                    <span class="language-span" data-language_key="custom_new_tab_btn"></span>
-                </button>
-            </div>
-            <div class="card-li msg-li font-mini select-text break">
-                <div><span class="language-span font-gray" data-language_key="help_msg_browser_set_change"></span></div>
-            </div>
-        </div>
-
-        <div class="div-card ">
-            <div class="card-li card-li-title">
-                🎯 <span class="language-span font-text" data-language_key="custom_a_target"></span>
+                🎯 <span class="language-span font-text" data-language_key="block_fingerprint"></span>
             </div>
             <div class="card-li radio-group" id="radioGroup">
-                <div class="radio-option" data-mode="default">
-                    <input type="radio" name="targetMode" id="modeDefault" value="_default">
+                <div class="radio-option">
+                    <input type="radio" name="targetMode" id="modeDefault" value="off">
                     <label for="modeDefault">
-                        <span class="language-span font-text click" data-language_key="custom_a_target_txt_default"></span>
+                        <span class="language-span font-text click" data-language_key="block_fingerprint_off"></span>
                     </label>
                 </div>
-                <div class="radio-option" data-mode="blank">
-                    <input type="radio" name="targetMode" id="modeBlank" value="_blank">
+                <div class="radio-option">
+                    <input type="radio" name="targetMode" id="modeBlank" value="on">
                     <label for="modeBlank">
-                        <span class="language-span font-text click" data-language_key="custom_a_target_txt_blank"></span>
-                    </label>
-                </div>
-                <div class="radio-option" data-mode="self">
-                    <input type="radio" name="targetMode" id="modeSelf" value="_self">
-                    <label for="modeSelf">
-                        <span class="language-span font-text click" data-language_key="custom_a_target_txt_self"></span>
+                        <span class="language-span font-text click" data-language_key="block_fingerprint_on"></span>
                     </label>
                 </div>
             </div>
             <div class="radio-alert hide" id="radioAlert">
-                <span class="font-mini select-text font-gray" id="radio-custom_a_target-alert" ></span>
+                <span class="font-mini select-text font-gray" id="radio-block_fingerprint-alert" ></span>
             </div>
             <div class="card-li msg-li font-mini select-text break">
                 <div><span class="language-span font-gray" data-language_key="help_msg_browser_set_a_target"></span></div>
@@ -81,8 +55,7 @@
 
     <!--页面脚本-->
     <link rel="stylesheet" href="./popup.css">
-    <script src="./setting_new_tab_url.js"></script>
-    <script src="./setting_a_target_mode.js"></script>
+    <script src="./setting_block_fingerprint.js"></script>
     <script src="./popup.js"></script>
 </body>
 </html>

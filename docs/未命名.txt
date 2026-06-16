@@ -1,7 +1,11 @@
 
 Fingerprint Blocker for Chromium：拦截使用了Chromium内核的浏览器的设备指纹。
 
-Canvas、JS、CSS、UserAgent
+Canvas、JS、
+
+CSS：
+
+UserAgent（原始的）
 
 
 

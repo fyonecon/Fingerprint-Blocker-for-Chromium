@@ -556,7 +556,7 @@ function block_webRTC_pr(){
             // 电脑硬件
             block_device_pr_base();
             block_webRTC_pr();
-        }else{
+        }else{ // off
             // 如果用户在 Popup 里关掉了，我们就把 Hook 还原
             restore_originals();
         }

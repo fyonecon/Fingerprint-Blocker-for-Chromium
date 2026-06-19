@@ -37,3 +37,28 @@ Store the information you set locally (specifically: the new tab URL. ).
 
 ====================================
 
+给审核员或测试看的
+
+🎯测试拦截效果的网站（第三方工具）：https://ippure.com/fingerprint ：
+
+当勾选扩展选项“不拦截”，测试网站（需要手动刷新该测试网址）中的“指纹ID”和“指纹组成信息”都是你浏览器的默认值获取。
+
+当勾选扩展选项“拦截一些”，测试网站（需要手动刷新该测试网址）中的“指纹ID”会发生改变，“指纹组成信息”中的“deviceMemory”会变成未定义、“hardwareConcurrency”会变成“你电脑小时时间x2”的数值、WebRTC会变成“disable”。
+
+当勾选扩展选项“拦截”，测试网站（需要手动刷新该测试网址）中的“指纹ID”又会发生改变，“指纹组成信息”中包含了选项“拦截一些”的参数值，又新增了“reducedMotion”会变成未定义、“plugins”的会变成仅一个值“Chrome PDF Plugin”。
+
+
+🎯 总结，本扩展的3个选项都各自有1个不同的“指纹ID”，说明本扩展已经运行。
+
+---
+
+🎯 Test website for interception effects (third-party tool): https://ippure.com/fingerprint :
+
+When the extension option "No Interception" is selected, the "Fingerprint ID" and "Fingerprint Composition Information" on the test website(The test URL needs to be manually refreshed.) will display your browser's default values.
+
+When the extension option "Intercept Some" is selected, the "Fingerprint ID" on the test website(The test URL needs to be manually refreshed.) will change. In the "Fingerprint Composition Information," `deviceMemory` will become undefined, `hardwareConcurrency` will change to the value of "your computer's local hour × 2", and WebRTC will become "disabled".
+
+When the extension option "Intercept" is selected, the "Fingerprint ID" on the test website(The test URL needs to be manually refreshed.) will change again. The "Fingerprint Composition Information" will include all the parameter values from the "Intercept Some" option, and additionally, `reducedMotion` will become "undefined", and `plugins` will be reduced to only one value: "Chrome PDF Plugin".
+
+
+🎯 In summary, each of the 3 options of this extension has a distinct "Fingerprint ID," which demonstrates that the extension is already running.

@@ -103,7 +103,7 @@ const func = {
             else if (_language.indexOf("en") >= 0){ // 英文
                 return "en";
             }
-            else if (_language.indexOf("jp") >= 0){ // 日文
+            else if (_language.indexOf("jp") >= 0 || _language.indexOf("ja") >= 0){ // 日文
                 return "jp";
             }
             // else if (_language.indexOf("fr") >= 0){ // 法语

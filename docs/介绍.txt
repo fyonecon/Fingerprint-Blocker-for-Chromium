@@ -8,8 +8,8 @@ No personal data is collected!
 不收集任何隐私！
 
 ### Running 运行:
-- Adapts to the browser's automatic language: Simplified Chinese, English, Japanese, German;
-- 适配了浏览器自动语言：简体中文、英语、日文、德语；
+- Adapts to the browser's automatic language: Simplified Chinese, English;
+- 适配了浏览器自动语言：简体中文、英语；
 - Requires browser version v143 or higher (due to the plugin's compliance with the V3 standard).
 - 需要v143及以上的浏览器版本（这由于本插件采用的是V3标准决定的）。
 
@@ -18,8 +18,8 @@ No personal data is collected!
 - 从浏览器官方商店安装本插件；
 - This plugin does not enable browser fingerprinting blocking by default.;
 - 本插件默认不开启拦截浏览器指纹；
-- The blocking efficacy and criteria are largely aligned with Safari. Parameters that are required for normal browser functionality are not blocked, effectively balancing the need for legitimate parameter usage with browser fingerprinting protection..
-- 拦截效果和拦截标准基本对齐Safari，对有正常浏览器特性需求的参数不做拦截，有效兼顾正常参数需求与拦截浏览器指纹。。
+- The blocking efficacy and criteria are largely aligned with Safari. Parameters that are required for normal browser functionality are not blocked, effectively balancing the need for legitimate parameter usage with browser fingerprinting protection.
+- 拦截效果和拦截标准基本对齐Safari，对有正常浏览器特性需求的参数不做拦截，有效兼顾正常参数需求与拦截浏览器指纹。
 
 ### Feedback issue 反馈问题：
 https://github.com/fyonecon/FingerprintBlocker

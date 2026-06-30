@@ -37,7 +37,12 @@ Store the information you set locally (specifically: the new tab URL. ).
 
 ====================================
 
-给审核员或测试看的
+
+本次版本给本浏览器扩展增加了“浏览器多语言 _locales 识别”
+
+------
+
+之前版本：
 
 🎯测试拦截效果的网站（第三方工具）：https://ippure.com/fingerprint ：
 
@@ -51,6 +56,12 @@ Store the information you set locally (specifically: the new tab URL. ).
 🎯 总结，本扩展的3个选项都各自有1个不同的“指纹ID”，说明本扩展已经运行。
 
 ---
+
+This version adds "browser multilanguage _locales identification" to this browser extension.
+
+------
+
+Before version:
 
 🎯 Test website for interception effects (third-party tool): https://ippure.com/fingerprint :
 

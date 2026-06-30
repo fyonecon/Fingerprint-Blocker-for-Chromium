@@ -46,6 +46,7 @@ Firefox扩展：https://addons.mozilla.org/zh-CN/firefox/addon/fingerprintblocke
 ~~~
 
 tabPureHome
+├───_locales 提交审核时的多语言（app多语言在js里面实现）
 ├───docs 文档、备份等
 ├───common 公共脚本文件
 │   ├───theme.css 全局主题

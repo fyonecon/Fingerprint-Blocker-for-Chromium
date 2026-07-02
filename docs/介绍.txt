@@ -57,7 +57,7 @@ Store the information you set locally (specifically: the new tab URL. ).
 
 ---
 
-This version feat: add timezone interception — Asia/Shanghai → Asia/Singapore (UTC+8 alias). Other timezones are not modified. Test via timezone field at https://ippure.com/fingerprint.
+This version feat: add timezone interception — Asia/Shanghai → Asia/Singapore (UTC+8 alias). Other timezones are not modified. Test via timezone field at https://ippure.com/fingerprint .
 
 ------
 
